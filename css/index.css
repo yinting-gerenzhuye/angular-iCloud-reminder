@@ -1,0 +1,105 @@
+
+body{
+	margin:0px;
+	font-family: "微软雅黑";
+}
+ul{
+	list-style:none;
+}
+*{
+	cursor:default;
+}
+.zuo{
+	width:400px;
+	position:absolute;
+	left:0px;
+	top:0;
+	bottom:0px;
+	background:#333;
+	color:#fff;
+	font-size:20px;
+
+}
+.you{
+	position:absolute;
+	left:300px;
+	top:0px;
+	bottom:0px;
+	right:0px;
+	background:#eee;
+	padding:40px;
+
+}
+.zuo .title{
+	padding:20px;
+	color:red;
+	font-size:40px;
+}
+.zuo ul li{
+	/*padding:20px;*/
+	font-size:20px;
+	border-bottom:1px solid #fff;
+
+ }
+ .zuo li span:first-child{
+ 	display: inline-block;
+ 	padding:8px;
+ 
+ }
+ .zuo .red{
+ 	color:red;
+ }
+ .blue{
+ 	color:blue;
+ 	background:blue;
+ }
+ 
+ div.you{
+ 	background:#eee;
+ }
+ .yellow{
+ 	background:yellow;
+ 	color:yellow;
+ }
+ .red{
+ 	background:red;
+ 	color:red;
+ }
+ .brow{
+ 	background:#ccc;
+ 	color:#ccc;
+ }
+ .pink{
+ 	background:pink;
+ 	color:pink;
+ }
+ .purple{
+ 	background:purple;
+ 	color:purple;
+ }
+ .orange{
+ 	background:orange;
+ 	color:orange;
+ }
+ .green{
+ 	background:green;
+ 	color:green;
+ }
+
+ .active{
+ 	background:rgba(255,0,0,0.4);
+ }
+ .zuo input{
+ 	border:none;
+ 	outline:none;
+ 	background:none;
+ 	/*width:100px;*/
+ }
+ .yuandian{
+ 	padding:10px;
+ 	display:inline-block;
+ 	width:10px;
+ 	height:10px;
+ 	margin-right:5px;
+ 	border-radius: 50%;
+ }
